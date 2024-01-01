@@ -1,0 +1,740 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-FGT4MUGT</Machine>
+    <WindowsUser>Joako</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>df0d558e-8b40-4d62-bada-13dc3f2ca7ff</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Raúl</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>CE07FF6EAB3244F052888CCC3DCB9A29847FC35DF1AF082D9DDF69F2CFF7857D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>df0d558e-8b40-4d62-bada-13dc3f2ca7ff_1.0.0.0_x86__vxgt0h13fgdt8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>df0d558e-8b40-4d62-bada-13dc3f2ca7ff_vxgt0h13fgdt8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>df0d558e-8b40-4d62-bada-13dc3f2ca7ff</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Raúl</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-30T18:27:12.116</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\bin\x86\Debug\PokemonGrupal.exe">
+      <PackagePath>entrypoint\PokemonGrupal.exe</PackagePath>
+      <Modified>2023-05-30T18:27:11.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\.nuget\packages\microsoft.toolkit.uwp.notifications\7.1.3\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.Notifications.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.Notifications.dll</PackagePath>
+      <Modified>2022-11-01T17:32:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2022-06-10T21:24:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T17:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\006.png">
+      <PackagePath>Img\006.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\agua.png">
+      <PackagePath>Img\agua.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\agua2.png">
+      <PackagePath>Img\agua2.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\bayaOram.png">
+      <PackagePath>Img\bayaOram.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\bolaEscudo.png">
+      <PackagePath>Img\bolaEscudo.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\bolaFuego-removebg-preview.png">
+      <PackagePath>Img\bolaFuego-removebg-preview.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\burbuja2.png">
+      <PackagePath>Img\burbuja2.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\burbuja3.png">
+      <PackagePath>Img\burbuja3.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\burbuja4.png">
+      <PackagePath>Img\burbuja4.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\burbujas1.png">
+      <PackagePath>Img\burbujas1.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\burbujasAgua.png">
+      <PackagePath>Img\burbujasAgua.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\caraFeliz.png">
+      <PackagePath>Img\caraFeliz.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\combatImg.png">
+      <PackagePath>Img\combatImg.png</PackagePath>
+      <Modified>2023-05-28T18:03:54.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\corazon1.png">
+      <PackagePath>Img\corazon1.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\corazonImagen.png">
+      <PackagePath>Img\corazonImagen.png</PackagePath>
+      <Modified>2023-03-21T18:35:57.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\efectosEnergia.png">
+      <PackagePath>Img\efectosEnergia.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\efectosVida.png">
+      <PackagePath>Img\efectosVida.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\electricity.png">
+      <PackagePath>Img\electricity.png</PackagePath>
+      <Modified>2023-03-21T18:35:57.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\escudo.png">
+      <PackagePath>Img\escudo.png</PackagePath>
+      <Modified>2023-03-21T18:35:57.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\escudoCA.png">
+      <PackagePath>Img\escudoCA.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\escudoSimbolo.png">
+      <PackagePath>Img\escudoSimbolo.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\espiralpokemon.png">
+      <PackagePath>Img\espiralpokemon.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\estadisticas_pichu.png">
+      <PackagePath>Img\estadisticas_pichu.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\estadisticas_piplup.png">
+      <PackagePath>Img\estadisticas_piplup.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\estadisticas_wartortle.png">
+      <PackagePath>Img\estadisticas_wartortle.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\evolucion_pichu.png">
+      <PackagePath>Img\evolucion_pichu.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\evolucion_piplup.png">
+      <PackagePath>Img\evolucion_piplup.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\evolucion_wartortle.png">
+      <PackagePath>Img\evolucion_wartortle.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\fondo.png">
+      <PackagePath>Img\fondo.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\garra.png">
+      <PackagePath>Img\garra.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.888</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\golpe.png">
+      <PackagePath>Img\golpe.png</PackagePath>
+      <Modified>2023-03-21T18:35:57.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\hachaKratos.png">
+      <PackagePath>Img\hachaKratos.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\heart.png">
+      <PackagePath>Img\heart.png</PackagePath>
+      <Modified>2023-03-21T18:35:57.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\icono_energia.png">
+      <PackagePath>Img\icono_energia.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\icono_vida.png">
+      <PackagePath>Img\icono_vida.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\image-removebg-preview.png">
+      <PackagePath>Img\image-removebg-preview.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\IPOKEMON.png">
+      <PackagePath>Img\IPOKEMON.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\leviatan.png">
+      <PackagePath>Img\leviatan.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\maullar.png">
+      <PackagePath>Img\maullar.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\ojoEnfadado3.png">
+      <PackagePath>Img\ojoEnfadado3.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\ojoEnfadado4.png">
+      <PackagePath>Img\ojoEnfadado4.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\pichu.png">
+      <PackagePath>Img\pichu.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\piplup.png">
+      <PackagePath>Img\piplup.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\pocionEnergiaTomando.png">
+      <PackagePath>Img\pocionEnergiaTomando.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\pocionVidaTomando.png">
+      <PackagePath>Img\pocionVidaTomando.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\pocion_energia.png">
+      <PackagePath>Img\pocion_energia.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\pocion_vida.png">
+      <PackagePath>Img\pocion_vida.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\pokeball2.png">
+      <PackagePath>Img\pokeball2.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\pokeballNueva.png">
+      <PackagePath>Img\pokeballNueva.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\POKEDEX.png">
+      <PackagePath>Img\POKEDEX.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\pokemonlogo.png">
+      <PackagePath>Img\pokemonlogo.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\rayo.png">
+      <PackagePath>Img\rayo.png</PackagePath>
+      <Modified>2023-03-21T18:35:57.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\rayo1.png">
+      <PackagePath>Img\rayo1.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\rayoRojo.png">
+      <PackagePath>Img\rayoRojo.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\redPotion.png">
+      <PackagePath>Img\redPotion.png</PackagePath>
+      <Modified>2023-03-21T18:35:57.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\wartotle.png">
+      <PackagePath>Img\wartotle.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\yellowPotion.png">
+      <PackagePath>Img\yellowPotion.png</PackagePath>
+      <Modified>2023-03-21T18:35:57.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\zzz.png">
+      <PackagePath>Img\zzz.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\zzz2.png">
+      <PackagePath>Img\zzz2.png</PackagePath>
+      <Modified>2023-05-30T15:13:27.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\EP576_Gimnasio_de_Ciudad_Canal.jpg">
+      <PackagePath>Img\EP576_Gimnasio_de_Ciudad_Canal.jpg</PackagePath>
+      <Modified>2023-05-21T11:38:55.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\fondo.jpg">
+      <PackagePath>Img\fondo.jpg</PackagePath>
+      <Modified>2023-03-21T18:35:57.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\fondoLago1.jpg">
+      <PackagePath>Img\fondoLago1.jpg</PackagePath>
+      <Modified>2023-05-30T15:13:27.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\pokemon_paisaje.jpg">
+      <PackagePath>Img\pokemon_paisaje.jpg</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\pokemon_volcano.jpg">
+      <PackagePath>Img\pokemon_volcano.jpg</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\hello-pikachu.gif">
+      <PackagePath>Img\hello-pikachu.gif</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\pichu-gif.gif">
+      <PackagePath>Img\pichu-gif.gif</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\piplup-gif.gif">
+      <PackagePath>Img\piplup-gif.gif</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\wartotle-gif.gif">
+      <PackagePath>Img\wartotle-gif.gif</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Img\pokemon_city.jpeg">
+      <PackagePath>Img\pokemon_city.jpeg</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Datos\Pokemon.xml">
+      <PackagePath>Datos\Pokemon.xml</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2023-05-07T10:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\bin\x86\Debug\PokemonGrupal.xr.xml">
+      <PackagePath>PokemonGrupal.xr.xml</PackagePath>
+      <Modified>2023-05-30T18:24:01.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2023-05-30T18:27:11.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\bin\x86\Debug\combatDetail.xbf">
+      <PackagePath>combatDetail.xbf</PackagePath>
+      <Modified>2023-05-30T18:27:10.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\bin\x86\Debug\CombatePage.xbf">
+      <PackagePath>CombatePage.xbf</PackagePath>
+      <Modified>2023-05-30T18:27:11.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\bin\x86\Debug\InicioPage.xbf">
+      <PackagePath>InicioPage.xbf</PackagePath>
+      <Modified>2023-05-30T18:27:11.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2023-05-30T18:27:11.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\bin\x86\Debug\pichu.xbf">
+      <PackagePath>pichu.xbf</PackagePath>
+      <Modified>2023-05-30T18:27:10.969</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\bin\x86\Debug\piplup.xbf">
+      <PackagePath>piplup.xbf</PackagePath>
+      <Modified>2023-05-30T18:27:11.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\bin\x86\Debug\PokedexDetails.xbf">
+      <PackagePath>PokedexDetails.xbf</PackagePath>
+      <Modified>2023-05-30T18:27:11.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\bin\x86\Debug\PokeDexPage.xbf">
+      <PackagePath>PokeDexPage.xbf</PackagePath>
+      <Modified>2023-05-30T18:27:11.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\bin\x86\Debug\wartortle.xbf">
+      <PackagePath>wartortle.xbf</PackagePath>
+      <Modified>2023-05-30T18:27:11.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T16:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2023-05-30T16:42:47.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joako\Documents\3 Uni\IPO2\IPOkemon_grupal-main\PokemonGrupal\bin\x86\Debug\Core\PokemonGrupal.exe">
+      <PackagePath>PokemonGrupal.exe</PackagePath>
+      <Modified>2023-05-30T18:27:12.102</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

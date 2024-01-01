@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Pokedex>
+	<Pokemon>
+		<Nombre>Wartortle</Nombre>
+		<Descripcion>Este Pokémon de agua es de lo más tranquilo, pero no te confíes, es capaz de desatar poderosos chorros de agua contra sus oponentes.</Descripcion>
+		<Tipos>
+			<Tipo>Agua</Tipo>
+		</Tipos>
+		<Habilidades>
+			<Habilidad>Torrente</Habilidad>
+		</Habilidades>
+		<ImgEvolucion>evolucion_wartortle.png</ImgEvolucion>
+		<DescrEvolucion>Squirtle evoluciona a Wartortle en el nivel 16. Wartortle evoluciona a Blastoise en el nivel 36</DescrEvolucion>
+		<Img>wartotle.png</Img>
+		<ImgEstadisticas>estadisticas_wartortle.png</ImgEstadisticas>
+		<DescrEstadisticas>Estos son los máximos alcanzables por el Pokémon; lo que quiere decir que los valores iniciales serán bastante inferiores.</DescrEstadisticas>
+	</Pokemon>
+	<Pokemon>
+		<Nombre>Pichu</Nombre>
+		<Descripcion>Un Pokémon pequeño y ágil que se mueve a toda velocidad. Puede lanzar poderosas descargas eléctricas.</Descripcion>
+		<Tipos>
+			<Tipo>Eléctrico</Tipo>
+		</Tipos>
+		<Habilidades>
+			<Habilidad>Electricidad estática</Habilidad>
+		</Habilidades>
+		<ImgEvolucion>evolucion_pichu.png</ImgEvolucion>
+		<DescrEvolucion>Pichu evoluciona a Pikachu por amistad con su entrenador, subiendo un nivel. Pikachu evoluciona a Raichu o Raichu de Alola </DescrEvolucion>
+		<Img>pichu.png</Img>
+		<ImgEstadisticas>estadisticas_pichu.png</ImgEstadisticas>
+		<DescrEstadisticas>Estos son los máximos alcanzables por el Pokémon; lo que quiere decir que los valores iniciales serán bastante inferiores.</DescrEstadisticas>
+	</Pokemon>
+	<Pokemon>
+		<Nombre>Piplup</Nombre>
+		<Descripcion>Un Pokémon de agua que se siente muy cómodo en lugares fríos. Su cuerpo está cubierto de plumas.</Descripcion>
+		<Tipos>
+			<Tipo>Agua</Tipo>
+			<Tipo>Hielo</Tipo>
+		</Tipos>
+		<Habilidades>
+			<Habilidad>Torrente</Habilidad>
+		</Habilidades>
+		<ImgEvolucion>evolucion_piplup.png</ImgEvolucion>
+		<DescrEvolucion>Piplup evoluciona a Prinplup al nivel 16. Prinplup evoluciona a Empoleon al nivel 36. Empoleon no evoluciona</DescrEvolucion>
+		<Img>piplup.png</Img>
+		<ImgEstadisticas>estadisticas_piplup.png</ImgEstadisticas>
+		<DescrEstadisticas>Estos son los máximos alcanzables por el Pokémon; lo que quiere decir que los valores iniciales serán bastante inferiores.</DescrEstadisticas>
+	</Pokemon>
+</Pokedex>

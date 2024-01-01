@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="PokemonGrupal.combatDetail"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PokemonGrupal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="White">
+
+    <Viewbox Stretch="Uniform">
+        <Grid Background="White" Width="1010">
+            <Image Height="678" VerticalAlignment="Center" Grid.Column="0" Stretch="UniformToFill" Source="Img/combatImg.png"/>
+            <local:wartortle x:ConnectionId='2' x:Name="player2Wartortle" HorizontalAlignment="Left" Margin="612,34,0,0" VerticalAlignment="Top" Height="371" Visibility="Collapsed"/>
+            <local:MyUserControl1 x:ConnectionId='3' x:Name="player1Pichu" HorizontalAlignment="Left" Margin="37,285,0,0" VerticalAlignment="Top" Height="392" Width="468" Visibility="Collapsed"/>
+            <local:MyUserControl1 x:ConnectionId='4' x:Name="player2Pichu" HorizontalAlignment="Left" Margin="604,0,0,0" VerticalAlignment="Top" Height="275" Width="401" Visibility="Collapsed"/>
+            <Button x:ConnectionId='5' x:Name="AttackP1" Content="Ataque" Margin="544,541,0,0" VerticalAlignment="Top"                Background="#7F000000" Visibility="Collapsed"/>
+            <Button x:ConnectionId='6' x:Name="AttackP2" Content="Ataque" Margin="234,34,0,0" VerticalAlignment="Top"                Background="#7F000000" Visibility="Collapsed"/>
+            <Button x:ConnectionId='7' x:Name="AttackP1_Escudo" Content="Escudo" Margin="727,541,0,0" VerticalAlignment="Top"                Background="#7F000000" Visibility="Collapsed"/>
+            <Button x:ConnectionId='8' x:Name="AttackP1_Encanto" Content="Encanto" Margin="633,541,0,0" VerticalAlignment="Top"                 Background="#7F000000" Visibility="Collapsed"/>
+            <Button x:ConnectionId='9' x:Name="AttackP2_Escudo" Content="Escudo" Margin="417,34,0,0" VerticalAlignment="Top"                Background="#7F000000" Visibility="Collapsed"/>
+            <Button x:ConnectionId='10' x:Name="AttackP2_Encanto" Content="Encanto" Margin="325,34,0,0" VerticalAlignment="Top"                 Background="#7F000000" Visibility="Collapsed"/>
+            <Button x:ConnectionId='11' x:Name="AttackP1_Descansar" Content="Descansar" Margin="816,541,0,0" VerticalAlignment="Top"                   Background="#7F000000" Visibility="Collapsed"/>
+            <Button x:ConnectionId='12' x:Name="AttackP2_Descansar" Content="Descansar" Margin="504,34,0,0" VerticalAlignment="Top"                   Background="#7F000000" Visibility="Collapsed"/>
+            <Button x:ConnectionId='13' x:Name="AttackP2_Ataque2" Content="Ataque 2" Margin="320,34,0,0" VerticalAlignment="Top"                 Background="#7F000000" Visibility="Collapsed"/>
+            <Button x:ConnectionId='14' x:Name="AttackP1_Ataque2" Content="Ataque 2" Margin="624,541,0,0"                 Background="#7F000000" VerticalAlignment="Top" Visibility="Collapsed"/>
+            <local:wartortle x:ConnectionId='15' x:Name="player1Wartortle" HorizontalAlignment="Left" Margin="66,272,0,0" VerticalAlignment="Top" Height="364" Width="473" Visibility="Collapsed"/>
+            <Button x:ConnectionId='16' x:Name="btn_MutiplierP1" Content="ATQ : X1.00" Margin="115,636,0,0" VerticalAlignment="Top" Foreground="White" Background="Black"/>
+            <Button x:ConnectionId='17' x:Name="btn_MutiplierP2" Content="ATQ : X1.00" Margin="785,422,0,0" VerticalAlignment="Top" Foreground="White" Background="Black"/>
+            <Button x:ConnectionId='18' x:Name="btn_encantoP1" Content="Encanto" Margin="226,636,0,0" VerticalAlignment="Top" Foreground="White" Background="Black" Visibility="Collapsed"/>
+            <Button x:ConnectionId='19' x:Name="btn_encantoP2" Content="Encanto" Margin="889,422,0,0" VerticalAlignment="Top" Foreground="White" Background="Black" Visibility="Collapsed"/>
+            <Grid x:ConnectionId='20' x:Name="grid_fin" Background="Black" Margin="327,231,327,224" Visibility="Collapsed">
+                <TextBlock x:ConnectionId='23' x:Name="Player1Win" HorizontalAlignment="Left" Margin="29,32,0,0" TextWrapping="Wrap" Text="EL JUGADOR1 HA GANADO!!" VerticalAlignment="Top" Width="304" Height="43" FontFamily="Bahnschrift" FontSize="24"/>
+                <TextBlock x:ConnectionId='24' x:Name="Player2Win" HorizontalAlignment="Left" Margin="29,32,0,0" TextWrapping="Wrap" Text="EL JUGADOR2 HA GANADO!!" VerticalAlignment="Top" Width="304" Height="43" FontFamily="Bahnschrift" FontSize="24" Visibility="Collapsed"/>
+                <Button x:ConnectionId='25' x:Name="btn_inicio" Content="Inicio" Margin="29,168,0,0" VerticalAlignment="Top" Height="36" Width="120"                         />
+                <Button x:ConnectionId='26' x:Name="btn_combate" Content="Combate" Margin="206,168,0,0" VerticalAlignment="Top" Height="36" Width="120"                          />
+                <TextBlock x:ConnectionId='27' x:Name="ir" HorizontalAlignment="Left" Margin="151,112,0,0" TextWrapping="Wrap" Text="Ir a..." VerticalAlignment="Top" Width="67" Height="43" FontFamily="Bahnschrift" FontSize="24"/>
+                <TextBlock x:ConnectionId='28' x:Name="Player1Lose" HorizontalAlignment="Left" Margin="29,32,0,0" TextWrapping="Wrap" Text="HAS PERDIDO!!" VerticalAlignment="Top" Width="304" Height="43" FontFamily="Bahnschrift" FontSize="24" Visibility="Collapsed"/>
+
+            </Grid>
+            <local:piplup x:ConnectionId='21' x:Name="player1Piplup" HorizontalAlignment="Left" Margin="37,300,0,0" VerticalAlignment="Top" Height="275" Width="339" Visibility="Collapsed"/>
+            <local:piplup x:ConnectionId='22' x:Name="player2Piplup" HorizontalAlignment="Left" Margin="667,50,0,0" VerticalAlignment="Top" Height="331" Width="328" Visibility="Collapsed"/>
+        </Grid>
+    </Viewbox>
+</Page>
+

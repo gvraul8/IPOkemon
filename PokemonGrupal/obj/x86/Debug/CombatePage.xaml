@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="PokemonGrupal.CombatePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PokemonGrupal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="White">
+
+    <Viewbox Stretch="Uniform">
+        <Grid Background="White">
+            <Image HorizontalAlignment="Stretch" Height="678" VerticalAlignment="Top" Width="904" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="10" Grid.RowSpan="10" Source="Img/EP576_Gimnasio_de_Ciudad_Canal.jpg"/>
+            <Grid Margin="131,95,151,324" Background="#7F0E0000" FocusVisualPrimaryBrush="White"></Grid>
+            <Grid Margin="131,380,151,57" Background="#7F0E0000" FocusVisualPrimaryBrush="White">
+                <CheckBox x:ConnectionId='18' x:Name="artifi" Content="AI" Margin="10,10,0,0" VerticalAlignment="Top"/>
+            </Grid>
+            <Grid x:ConnectionId='2' x:Name="grid1" Margin="180,166,566,337" Background="#000E0000" FocusVisualPrimaryBrush="White"/>
+            <Grid x:ConnectionId='3' x:Name="grid2" Margin="350,166,370,337" Background="#000E0000" FocusVisualPrimaryBrush="White"/>
+            <Grid x:ConnectionId='4' x:Name="grid3" Margin="539,164,181,339" Background="#000E0000" FocusVisualPrimaryBrush="White"/>
+            <Grid x:ConnectionId='5' x:Name="grid4" Margin="180,430,566,73" Background="#000E0000" FocusVisualPrimaryBrush="White"/>
+            <Grid x:ConnectionId='6' x:Name="grid5" Margin="350,430,370,73" Background="#000E0000" FocusVisualPrimaryBrush="White"/>
+            <Grid x:ConnectionId='7' x:Name="grid6" Margin="539,428,181,75" Background="#000E0000" FocusVisualPrimaryBrush="White"/>
+            <TextBlock x:ConnectionId='8' HorizontalAlignment="Left" Margin="228,10,0,0" TextWrapping="Wrap" Text="SELECIONA A TU POKEMON" VerticalAlignment="Top" Height="94" Width="633"                                               Foreground="Black" FontSize="36" FontFamily="Bahnschrift"/>
+            <TextBlock x:ConnectionId='9' HorizontalAlignment="Left" Margin="346,111,0,0" TextWrapping="Wrap" Text="JUGADOR 1" VerticalAlignment="Top" Height="36" Width="198"                                               FontSize="36" FontFamily="Bahnschrift" SelectionHighlightColor="Black" FocusVisualSecondaryBrush="#99FFFFFF" FocusVisualPrimaryBrush="White" Foreground="White"/>
+            <Image x:ConnectionId='10' HorizontalAlignment="Left" Height="161" VerticalAlignment="Top"                      Width="189" Stretch="UniformToFill" Source="Img/wartotle-gif.gif" Margin="523,180,0,0"/>
+            <Image x:ConnectionId='11' HorizontalAlignment="Left" Height="139" VerticalAlignment="Top" Width="119"                      Stretch="UniformToFill" Source="/Img/piplup-gif.gif" Margin="381,179,0,0"/>
+            <Image x:ConnectionId='12' HorizontalAlignment="Left" Height="188" VerticalAlignment="Top"                      Width="155" Stretch="UniformToFill" Source="/Img/pichu-gif.gif" Margin="180,166,0,0"/>
+            <Image x:ConnectionId='13' HorizontalAlignment="Left" Height="161" VerticalAlignment="Top" Width="189"                      Stretch="UniformToFill" Source="/Img/wartotle-gif.gif" Margin="523,447,0,0"/>
+            <Image x:ConnectionId='14' HorizontalAlignment="Left" Height="139" VerticalAlignment="Top" Width="119"                      Stretch="UniformToFill" Source="/Img/piplup-gif.gif" Margin="381,446,0,0"/>
+            <Image x:ConnectionId='15' HorizontalAlignment="Left" Height="188" VerticalAlignment="Top" Width="155"                      Stretch="UniformToFill" Source="/Img/pichu-gif.gif" Margin="180,433,0,0"/>
+            <TextBlock x:ConnectionId='16' HorizontalAlignment="Left" Margin="350,387,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="198"                                               FontSize="36" FontFamily="Bahnschrift" SelectionHighlightColor="Black" FocusVisualSecondaryBrush="#99FFFFFF" FocusVisualPrimaryBrush="White" Foreground="White"><Run Text="JUGADOR "/><Run Text="2"/></TextBlock>
+            <Button x:ConnectionId='17' Content="JUGAR" Margin="779,570,0,0" VerticalAlignment="Top" Height="51" Width="115" Background="#B2FFFFFF" Foreground="Black"                     />
+        </Grid>
+    </Viewbox>
+</Page>
+
